@@ -1,0 +1,354 @@
+@import url('https://fonts.googleapis.com/css2?family=Barlow:wght@400;700&family=PT+Sans+Narrow&display=swap');
+
+:root {
+    --primary-color-full: #0e6f96;
+    --primary-color-soft: #f6f8fa;
+    --secondary-color-full: #0ba75c;
+    --secondary-color-soft: #f6fbf8;
+    --neutral-color-full: #6a6a6a;
+    --neutral-color-soft: #f0f0f0;
+    --background-color: #ffffff;
+    --copy-color-full: #000000;
+}
+
+.bg {
+    background-color: var(--background-color);
+}
+
+.copy {
+    color: var(--copy-color-full);
+}
+
+.bg-white {
+    background-color: white;
+}
+
+.bg-pf, .h_bg-pf:hover {
+    background-color: var(--primary-color-full);
+}
+
+.fg-pf {
+    color: var(--primary-color-full);
+}
+
+.bg-ps {
+    background-color: var(--primary-color-soft);
+}
+
+.fg-ps {
+    color: var(--primary-color-soft);
+}
+
+.bg-sf {
+    background-color: var(--secondary-color-full);
+}
+
+.fg-sf {
+    color: var(--secondary-color-full);
+}
+
+.bg-ss {
+    background-color: var(--secondary-color-soft);
+}
+
+.fg-ss {
+    color: var(--secondary-color-soft);
+}
+
+.fg-nf {
+    color: var(--neutral-color-full);
+}
+
+.bg-ns, .h_bg-ns:hover, *:hover > .ph_bg-ns {
+    background-color: var(--neutral-color-soft);
+}
+
+.fg-ns {
+    color: var(--neutral-color-soft);
+}
+
+/* ============= PADDING ===================== */
+
+.pdt-15 {
+    padding-top: 15px;
+}
+
+.pdb-10 {
+    padding-bottom: 10px;
+}
+
+.pdb-25 {
+    padding-bottom: 25px;
+}
+
+.pd-0 {
+    padding: 0;
+}
+
+.pd-5 {
+    padding: 5px;
+}
+
+.pd-10 {
+    padding: 10px;
+}
+
+.pd-25 {
+    padding: 25px;
+}
+
+.pdl-20 {
+    padding-left: 20px;
+}
+
+/* ============== MARGINS =================== */
+
+.ml-a {
+    margin-left: auto;
+}
+
+.mr-a {
+    margin-right: auto;
+}
+
+.ml-15 {
+    margin-left: 15px;
+}
+
+.mr-15 {
+    margin-right: 15px;
+}
+
+.mr-30 {
+    margin-right: 30px;
+}
+
+.mt-10 {
+    margin-top: 10px;
+}
+
+.mt-50 {
+    margin-top: 50px;
+}
+
+.m-0 {
+    margin: 0;
+}
+
+/* =============== WIDTHS =================== */
+
+.w-dk {
+    width: 1140px;
+}
+
+.w-140 {
+    width: 140px;
+}
+
+.w-100pct {
+    width: 100%;
+}
+
+/* ================ BORDERS ================= */
+
+.bw-0 {
+    border-width: 0;
+}
+
+.br-5 {
+    border-radius: 5px;
+}
+
+.br-10 {
+    border-radius: 10px;
+}
+
+.brtl-5 {
+    border-top-left-radius: 5px;
+}
+
+.brtr-5 {
+    border-top-right-radius: 5px;
+}
+
+.brbl-5 {
+    border-bottom-left-radius: 5px;
+}
+
+.brbr-5 {
+    border-bottom-right-radius: 5px;
+}
+
+.out-0 {
+    outline: none;
+}
+
+/* ================= DISPLAY ================ */
+
+.d-b, .h_d-b:hover, *:hover > .ph_d-b, *:focus ~ .sf_d-b {
+    display: block;
+}
+
+.d-ib, .f_d-ib:focus {
+    display: inline-block;
+}
+
+.d-0 {
+    display: none;
+}
+
+.d-g {
+    display: grid;
+}
+
+/* ================ GRID ==================== */
+
+.gc-4 {
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+}
+
+.gc-3-1 {
+    grid-template-columns: 3fr 1fr;
+}
+
+.gg-50 {
+    grid-gap: 50px;
+}
+
+.ga-c {
+    align-items: center;
+}
+
+/* ============== VISIBILITY ================ */
+
+.vis-0 {
+    visibility: hidden;
+}
+
+.vis {
+    visibility: visible;
+}
+
+/* ================ LISTS =================== */
+
+.ti-0 {
+    text-indent: 0;
+}
+
+.lst-0 {
+    list-style-type: none;
+}
+
+/* ============== POSITION ================== */
+
+.po-r {
+    position: relative;
+}
+
+.po-a {
+    position: absolute;
+}
+
+.po-f {
+    position: fixed;
+}
+
+.top-0 {
+    top: 0;
+}
+
+.top-5 {
+    top: 5px;
+}
+
+.top-50 {
+    top: 50px;
+}
+
+.ri-a, *:focus ~ .sf_ri-a {
+    right: auto;
+}
+
+.ri-0 {
+    right: 0;
+}
+
+.ri-5 {
+    right: 5px;
+}
+
+.b-0 {
+    bottom: 0;
+}
+
+.l-0 {
+    left: 0;
+}
+
+.l-5, *:focus ~ .sf_l-5 {
+    left: 5px;
+}
+
+.va-m {
+    vertical-align: middle;
+}
+
+/* ============== TEXT ==================== */
+
+.txd-0 {
+    text-decoration: none;
+}
+
+.fw-b {
+    font-weight: bold;
+}
+
+.tt-uc {
+    text-transform: uppercase;
+}
+
+/* ================ EFFECTS =============== */
+
+.shadow {
+    box-shadow: 0px 0px 15px rgba(100, 100, 100, .3);
+}
+
+.bm-b {
+    box-sizing: border-box;
+}
+
+.cu-p {
+    cursor: pointer;
+}
+
+.op-10 {
+    opacity: 0.1;
+}
+
+.op-20 {
+    opacity: 0.2;
+}
+
+/* ================ Z-INDEX =============== */
+
+.zi-100 {
+    z-index: 100;
+}
+
+.zi-200 {
+    z-index: 200;
+}
+
+/* =============== FONTS ================== */
+
+.ff-p {
+    font-family: 'Barlow', Helvetica, Arial, sans-serif;
+}
+
+.ff-s {
+    font-family: 'PT Sans Narrow', Helvetica, Arial, sans-serif;
+}
+
+.fs-9m {
+    font-size: 0.9em;
+}
