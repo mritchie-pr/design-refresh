@@ -97,8 +97,16 @@
     padding: 25px;
 }
 
+.pdl-10 {
+    padding-left: 10px;
+}
+
 .pdl-20 {
     padding-left: 20px;
+}
+
+.pdr-10 {
+    padding-right: 10px;
 }
 
 /* ============== MARGINS =================== */
